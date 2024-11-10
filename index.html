@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">Adventure</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a href="#"></a>Tours</li>
+            <li><a href="#"></a>Explore</li>
+            <li><a href="#"></a>About</li>
+            <li class="ctn"><a href="#"></a>Contact</li>
+        </ul>
+        <img src="menuBtn.webp" alt="" class="menu-btn">
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <h2>Explore The Colorful World</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="#" class="ctn">Learn more</a>
+        </div>
+    </header>
+
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="sawat-event.avif" alt=""  >
+                <h4>Sawat Event</h4>
+                <a href="#" class="ctn">Learn more</a>
+
+            </div>
+            <div class="col">
+                <img src="gilgit-event.avif" alt="" height="335px">
+                <h4>Gilgit Event</h4>
+                <a href="#" class="ctn">Learn more</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="tours">
+        <div class="row">
+            <div class="col image-col">
+                <h1>Upcoming Tours & Destination</h1>
+                <div class="image-gallery">
+                    <img src="northernpic1.jpg" alt="" height="300">
+                    <img src="northern5.jfif" alt="" height="300">
+                </div>
+                
+                <div class="col content-col">
+                    <p>Pakistan offers a rich blend of breathtaking landscapes, from the rugged peaks of the Karakoram Mountains to lush green valleys and historic cities like Lahore and Islamabad. Travelers can explore vibrant bazaars, ancient forts, and warm hospitality, making it a unique destination for adventure and cultural experiences.</p>
+                <a href="#" class="ctn">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <footer>
+            <p>Phone: 0331-1122333 | Email:Adventure@gmail.com</p>
+            <p>Copyright © 2024 Output Adventure</p>
+        </footer>
+    </section>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click' , ()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
